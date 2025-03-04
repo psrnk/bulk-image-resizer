@@ -55,7 +55,6 @@ public class ImageResizerGUI extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
-        // ============= TOP PANEL =============
         JPanel topPanel = new JPanel(new GridBagLayout());
         topPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         GridBagConstraints gbc = new GridBagConstraints();
@@ -104,7 +103,6 @@ public class ImageResizerGUI extends JFrame implements ActionListener {
 
         add(topPanel, BorderLayout.NORTH);
 
-        // ============= CENTER PANEL =============
         JPanel centerPanel = new JPanel(new BorderLayout(10, 10));
         centerPanel.setBorder(BorderFactory.createEmptyBorder(0, 10, 10, 10));
 
@@ -116,7 +114,6 @@ public class ImageResizerGUI extends JFrame implements ActionListener {
         scrollPane.setBorder(BorderFactory.createTitledBorder("Select Images to Process"));
         centerPanel.add(scrollPane, BorderLayout.CENTER);
 
-        // ============= OPTIONS PANEL (Crop/Resize/Prefix) =============
         JPanel optionsPanel = new JPanel(new GridBagLayout());
         optionsPanel.setBorder(BorderFactory.createTitledBorder("Options"));
         GridBagConstraints ogbc = new GridBagConstraints();
@@ -195,7 +192,6 @@ public class ImageResizerGUI extends JFrame implements ActionListener {
         centerPanel.add(optionsPanel, BorderLayout.EAST);
         add(centerPanel, BorderLayout.CENTER);
 
-        // ============= BOTTOM PANEL =============
         JPanel bottomPanel = new JPanel();
         bottomPanel.setBorder(BorderFactory.createEmptyBorder(0, 10, 10, 10));
         startButton = new JButton("Process Selected Images");
