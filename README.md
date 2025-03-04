@@ -30,7 +30,7 @@ Bulk Image Resizer is a standalone Windows application built in Java that allows
         - Enable **Resize** and specify the target width and height.
     - **Filename Prefix:** Enter a custom prefix (e.g., `cropped_1`) for the processed images.
 3. **Process Images:**  
-   Click **"Process Selected Images"** to begin processing. Processed images will be saved in the output folder with filenames like `cropped_nice_1.jpg`, `cropped_nice_2.jpg`, etc.
+   Click **"Process Selected Images"** to begin processing. Processed images will be saved in the output folder with filenames like `cropped_1.jpg`, `cropped_2.jpg`, etc.
 
 ## Troubleshooting
 - **No Visible Installation:** If the installer seems to do nothing after the UAC prompt, check the Start Menu or Desktop for a newly created shortcut.
